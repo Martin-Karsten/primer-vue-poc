@@ -1,11 +1,14 @@
 <script setup lang="ts">
-  import Box from './components/Box.vue'
+  import Box from './components/Box/Box.vue'
+  import Loader from './components/Loader/Loader.vue'
 </script>
 
 <template>
   <Box :some-prop="`I am a prop`">
     Some content
   </Box>
+
+  <Loader />
 </template>
 
 <style>
