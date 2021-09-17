@@ -22,7 +22,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "eslint": "eslint src/**/*.{ts,vue}",
+    "prettier": "prettier -w -u src/**/*.{ts,vue}",
+    "stylelint": "stylelint **/*.{scss,vue} --syntax scss"
   },
   "dependencies": {
     "vue": "^3.2.6"
@@ -33,10 +35,15 @@
     "@typescript-eslint/parser": "4.31.1",
     "@vitejs/plugin-vue": "^1.6.1",
     "@vue/compiler-sfc": "^3.2.6",
+    "@vue/eslint-config-prettier": "6.0.0",
     "@vue/eslint-config-typescript": "7.0.0",
     "eslint": "7.32.0",
+    "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-vue": "7.17.0",
+    "prettier": "2.4.1",
     "sass": "1.41.0",
+    "stylelint": "13.13.1",
+    "stylelint-config-standard": "22.0.0",
     "typescript": "^4.3.2",
     "vite": "^2.5.4",
     "vue-tsc": "^0.2.2"
