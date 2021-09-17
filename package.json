@@ -1,6 +1,6 @@
 {
   "name": "@Martin-Karsten/primer-vue-poc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./dist/primer-vue-poc.umd.js",
   "module": "./dist/primer-vue-poc.es.js",
   "exports": {
@@ -16,6 +16,9 @@
     "type": "git",
     "url": "https://github.com/Martin-Karsten/primer-vue-poc.git"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
