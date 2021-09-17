@@ -1,5 +1,6 @@
 # Example
 
+* npm install primer-vue-poc
 
 ```js
 <script>
