@@ -1,6 +1,6 @@
 {
   "name": "primer-vue-poc",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./dist/primer-vue-poc.umd.js",
   "module": "./dist/primer-vue-poc.es.js",
   "exports": {
@@ -11,16 +11,21 @@
     "./dist/style.css": "./dist/style.css"
   },
   "unpkg": "dist/primer-vue-poc.umd.min.js",
+  "author": "Martin Karsten",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Martin-Karsten/primer-vue-poc.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview"
   },
   "dependencies": {
-    "@primer/css": "17.10.0",
     "vue": "^3.2.6"
   },
   "devDependencies": {
+    "@primer/css": "17.10.0",
     "@typescript-eslint/eslint-plugin": "4.31.1",
     "@typescript-eslint/parser": "4.31.1",
     "@vitejs/plugin-vue": "^1.6.1",
