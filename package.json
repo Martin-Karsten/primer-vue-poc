@@ -1,6 +1,6 @@
 {
   "name": "@Martin-Karsten/primer-vue-poc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./dist/primer-vue-poc.umd.js",
   "module": "./dist/primer-vue-poc.es.js",
   "exports": {
