@@ -3,13 +3,6 @@
   "version": "0.0.5",
   "main": "./dist/primer-vue-poc.umd.js",
   "module": "./dist/primer-vue-poc.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/primer-vue-poc.es.js",
-      "require": "./dist/primer-vue-poc.umd.js"
-    },
-    "./dist/style.css": "./dist/style.css"
-  },
   "unpkg": "dist/primer-vue-poc.umd.min.js",
   "author": "Martin Karsten",
   "repository": {
@@ -17,7 +10,9 @@
     "url": "https://github.com/Martin-Karsten/primer-vue-poc.git"
   },
   "files": [
-    "dist"
+    "dist",
+    "src",
+    "types/*.d.ts"
   ],
   "scripts": {
     "dev": "vite",
