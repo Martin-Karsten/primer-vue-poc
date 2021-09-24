@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "node build.js",
     "eslint": "eslint src/**/*.{ts,vue}",
     "prettier": "prettier -w -u src/**/*.{ts,vue}",
     "stylelint": "stylelint **/*.{scss,vue} --syntax scss"
@@ -31,6 +31,11 @@
   },
   "devDependencies": {
     "@primer/css": "17.10.0",
+    "@rollup/plugin-image": "2.1.1",
+    "@rollup/plugin-json": "4.1.0",
+    "@rollup/plugin-node-resolve": "13.0.5",
+    "@rollup/plugin-typescript": "8.2.5",
+    "@rollup/pluginutils": "4.1.1",
     "@typescript-eslint/eslint-plugin": "4.31.1",
     "@typescript-eslint/parser": "4.31.1",
     "@vitejs/plugin-vue": "^1.6.1",
@@ -40,7 +45,11 @@
     "eslint": "7.32.0",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-vue": "7.17.0",
+    "execa": "5.1.1",
     "prettier": "2.4.1",
+    "rollup-plugin-styles": "3.14.1",
+    "rollup-plugin-typescript2": "0.30.0",
+    "rollup-plugin-vue": "6.0.0",
     "sass": "1.41.0",
     "stylelint": "13.13.1",
     "stylelint-config-standard": "22.0.0",
