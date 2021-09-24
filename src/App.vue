@@ -7,6 +7,8 @@ import Loader from "./components/Loader/Loader.vue";
   <Box some-prop="`I am a prop`">Some content</Box>
 
   <Loader />
+
+  <button>bb</button>
 </template>
 
 <style>

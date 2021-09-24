@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import { BoxProps } from "../../types/index";
+
 const props = defineProps({
   someProp: String,
-});
+}) as BoxProps;
 </script>
 
 <template>

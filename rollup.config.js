@@ -3,7 +3,7 @@ import typescript from "rollup-plugin-typescript2";
 import json from "@rollup/plugin-json";
 import image from "@rollup/plugin-image";
 import { nodeResolve } from "@rollup/plugin-node-resolve";
-import vue from "rollup-plugin-vue"; // v5.x for vue2
+import vue from "rollup-plugin-vue";
 import styles from "rollup-plugin-styles";
 import { createFilter } from "@rollup/pluginutils";
 

@@ -1,3 +1,10 @@
+<script setup lang="ts">
+const props = defineProps({
+  loaderProp: String,
+});
+</script>
+sc
+
 <template>
   <div class="AnimatedEllipsis">Loading</div>
 </template>
