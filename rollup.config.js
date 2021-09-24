@@ -17,6 +17,9 @@ export default {
     format,
     sourcemap: true,
     name: `primer-vue`,
+    globals: {
+      vue: `Vue`,
+    },
   })),
   external: [`vue`],
   plugins: [

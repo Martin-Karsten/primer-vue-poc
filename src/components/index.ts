@@ -1,4 +1,4 @@
-import Box from "./Box/Box.vue";
-import Loader from "./Loader/Loader.vue";
+import Box from "./Box";
+import Loader from "./Loader";
 
 export { Box, Loader };
