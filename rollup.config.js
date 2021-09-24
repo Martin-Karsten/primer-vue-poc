@@ -18,9 +18,7 @@ export default {
     sourcemap: true,
     name: `primer-vue`,
   })),
-  external: [
-    // external modules
-  ],
+  external: [`vue`],
   plugins: [
     // create a simple plugin to resect style for .vue file
     {
